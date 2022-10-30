@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Serif&display=swap" rel="stylesheet');
+/*<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> */
+/*<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Serif&display=swap" rel="stylesheet"> */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet');
+
+html,
+body {
+    height: 100%; 
+}
+
+p,
+h1, 
+h2 {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #E6E6E6;
+    padding: 5px;
+    /*height: 100%;*/
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin-bottom: 3em;
+    background-color: #2649a6;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-top: 110px;
+    margin-right: 0px;
+    margin-bottom: 110px;
+    margin-left: 0px;
+}
+
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.9rem;
+    color: #848484;
+    font-weight: 600;
+}
+
+.fullname {
+    
+	margin: 40px 0px 0px 110px;
+    
+}
+.about_me {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.myImg {
+    margin-top: 80px;
+    padding-left: 20px;
+    flex-basis: 450px;
+}
+h1 {
+    color: #08298A;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.knowledge {
+    display: grid;   
+    justify-content: center;
+	/*margin-left: 450;*/
+
+}
+
+.article {
+    margin-top: 2em;   
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: #08298A;
+    padding-left: 20px;
+}
+
+.text {
+    font-size: 1rem;
+    color: #585858;
+}
+
+h2 {
+    text-align: center;
+    color: #424242;
+}
+
+
+
+.footer {
+    background-color: #0d0d0d;
+    flex: 0 0 auto;
+}
